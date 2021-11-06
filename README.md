@@ -31,3 +31,5 @@ How to use:
 	The shortcode {donationbtn} gives you the Button for a Donation. The user can enter here set or own data for the sum.
 	
 For more Information about IOTA visit Blog in [German](https://iota-kurs.de) and [Russian](https://russia.iota-kurs.de)
+
+Waiting for Joomla Admin to verify the App.
