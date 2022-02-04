@@ -16,6 +16,9 @@
         <language tag="en-GB">en-GB.plg_content_paywithiota.ini</language>
         <language tag="en-GB">en-GB.plg_content_paywithiota.sys.ini</language>
     </languages>
+    <updateservers>
+    <server type="extension" name="Extension Updates" priority="2">https://raw.githubusercontent.com/shortaktien/pay-with-iota-joomla/main/paywithiota.xml</server>
+    </updateservers>
     <config>
         <fields name="params">
             <fieldset name="basic">
