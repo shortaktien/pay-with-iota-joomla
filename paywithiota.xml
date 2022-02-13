@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>info@short-aktien.de</authorEmail>
     <authorUrl>https://short-aktien.de/iota-pay/</authorUrl>
-    <version>1.0.10</version>
+    <version>1.0.11</version>
     <description>PLG_PAYWITHIOTA_XML_DESCRIPTION</description>
     <files>
         <filename plugin="paywithiota">paywithiota.php</filename>
