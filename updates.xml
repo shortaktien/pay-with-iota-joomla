@@ -3,22 +3,22 @@
 <updates>
 <!--TEST-TEST-TEST-->
 	<update>
-		<name>Pay with IOTA</name>
+		<name>PLG_CONTENT_PAYWITHIOTA</name>
 		<description>A Shortcut for a Button to pay with IOTA</description>
-		<element>test</element>
+		<element>paywithiota</element>
 		<type>plugin</type>
 		<version>1.0.11</version>
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/shortaktien/pay-with-iota-joomla/archive/refs/tags/1.0.11.zip</downloadurl>
 		</downloads>
-		<targetplatform name="joomla" version="4.0.6" />
+		<targetplatform name="joomla" version="4.*" />
 		<php_minimum>7.1</php_minimum>
 	</update>
 	
 	<updates>
 <!--TEST2-TEST2-TEST2-->
 	<update>
-		<name>Pay with IOTA</name>
+		<name>PLG_CONTENT_PAYWITHIOTA</name>
 		<description>A Shortcut for a Button to pay with IOTA -test-</description>
 		<element>paywithiota</element>
 		<type>plugin</type>
@@ -26,7 +26,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/shortaktien/pay-with-iota-joomla/archive/refs/tags/1.0.12.zip</downloadurl>
 		</downloads>
-		<targetplatform name="joomla" version="4.0.6" />
+		<targetplatform name="joomla" version="4.*" />
 		<php_minimum>7.1</php_minimum>
 	</update>
 </updates>
