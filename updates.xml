@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <updates>
-	<!--1.0.2-->
+	
 <update>
+	<!--1.0.2-->
 	<name>PLG_CONTENT_PAYWITHIOTA</name>
 	<description>A Shortcut for a Button to pay with IOTA</description>
 	<element>paywithiota</element>
