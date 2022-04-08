@@ -41,8 +41,8 @@ class PlgContentPaywithiota extends JPlugin
             return true;
         }
         $document = JFactory::getDocument();
-        $document->addScript("https://iota-button.org/build/iota-button.esm.js",array(), ['type' =>'module']);
-        $document->addScript("https://iota-button.org/build/iota-button.js",array(),['nomodule' =>'nomodule']);
+        $document->addScript("https://shortaktien.de/build/iota-button.esm.js",array(), ['type' =>'module']);
+        $document->addScript("https://shortaktien.de/build/iota-button.js",array(),['nomodule' =>'nomodule']);
 
         // Expression to search for (iotabtn)
         $regexiota = '/{iotabtn}/i';
@@ -78,7 +78,7 @@ class PlgContentPaywithiota extends JPlugin
         {
             foreach ($matchesfiat as $match)
             {
-                $output = '<iota-button address="'.$address.'" 
+                $output = '<iota-button address="'.$address.'"
 										amount="'.$amount.'"
 										currency="'.$currency.'">
 										</iota-button>';
@@ -96,8 +96,8 @@ class PlgContentPaywithiota extends JPlugin
             foreach ($matchesdonation as $match)
             {
                 $output = '<iota-button address="'.$address.'"
-					 currency="'.$currency.'" 
-					 label="Donate" 
+					 currency="'.$currency.'"
+					 label="Donate"
 					 merchant="'.$user.'"
 					 type="donation">
 					 </iota-button>';
